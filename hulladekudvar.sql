@@ -86,3 +86,97 @@ INSERT INTO `menu` (`url`, `nev`, `szulo`, `jogosultsag`, `sorrend`) VALUES
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+
+--
+-- Adatbázis: `hulladekudvar`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Tábla szerkezet ehhez a táblához `fajta`
+--
+
+CREATE TABLE `fajta` (
+  `id` int(11) NOT NULL,
+  `nev` varchar(300) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Tábla szerkezet ehhez a táblához `gyujt`
+--
+
+CREATE TABLE `gyujt` (
+  `helyid` int(11) NOT NULL,
+  `fajtaid` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Tábla szerkezet ehhez a táblához `hely`
+--
+
+CREATE TABLE `hely` (
+  `id` int(11) NOT NULL,
+  `kerulet` varchar(100) NOT NULL,
+  `cim` varchar(300) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+
+--
+-- Indexek a kiírt táblákhoz
+--
+
+--
+-- A tábla indexei `fajta`
+--
+ALTER TABLE `fajta`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- A tábla indexei `gyujt`
+--
+ALTER TABLE `gyujt`
+  ADD KEY `fajtaid` (`fajtaid`),
+  ADD KEY `helyid` (`helyid`);
+
+--
+-- A tábla indexei `hely`
+--
+ALTER TABLE `hely`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- A kiírt táblák AUTO_INCREMENT értéke
+--
+
+--
+-- AUTO_INCREMENT a táblához `fajta`
+--
+ALTER TABLE `fajta`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT a táblához `hely`
+--
+ALTER TABLE `hely`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- Megkötések a kiírt táblákhoz
+--
+
+--
+-- Megkötések a táblához `gyujt`
+--
+ALTER TABLE `gyujt`
+  ADD CONSTRAINT `gyujt_ibfk_1` FOREIGN KEY (`fajtaid`) REFERENCES `fajta` (`id`),
+  ADD CONSTRAINT `gyujt_ibfk_2` FOREIGN KEY (`helyid`) REFERENCES `hely` (`id`);
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
