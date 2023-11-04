@@ -1,6 +1,6 @@
 # Web2-1-Hulladekudvar
-Web 2. Beadandó 1. - Hulladekudvar
+Web 2. Beadandó 1. - Hulladékudvar
 
-Csapat tagok:
-Árki István
+Csapat tagok:<br>
+Árki István<br>
 Bérczy Bálint
