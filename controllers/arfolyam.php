@@ -2,25 +2,39 @@
 
 class Arfolyam_Controller
 {
-    public $baseName = 'arfolyam';  //meghat�rozni, hogy melyik oldalon vagyunk
-	public function main(array $vars) // a router �ltal tov�bb�tott param�tereket kapja
-	{
+    const QUERY_TYPES = [
+        'daily' => 'Napi árfolyam',
+        'monthly' => 'Havi árfolyam',
+    ];
+
+    public string $baseName = 'arfolyam';
+
+    public function main(array $vars)
+    {
         $arfolyam = new Arfolyam_Model;
 
-        if (isset($vars['given_day'])) {
-            $dailyRate = $arfolyam->getDailyRate($vars['currency1'], $vars['currency2'], $vars['given_day']);
+        if (($vars['type'] ?? '') === 'daily') {
+            $rateAtDay = $arfolyam->getRateAtGivenDay($vars['currency1'], $vars['currency2'], $vars['given_day']);
+        } else if (($vars['type'] ?? '') === 'monthly') {
+            $ratesAtMonth = $arfolyam->getRatesAtGivenMonth($vars['currency1'], $vars['currency2'], $vars['given_year'], $vars['given_month']);
         }
-        //var_dump($vars);die;
-        //$arfolyam->debug();
-		$view = new View_Loader($this->baseName."_main");
+
+        $view = new View_Loader($this->baseName."_main");
         $view->assignAll([
             'first_date' => $arfolyam->getFirstDate(),
             'last_date' => $arfolyam->getLastDate(),
             'currencies' => $arfolyam->getCurrencies(),
-            'currency1' => $vars['currency1'] ?? '',
-            'currency2' => $vars['currency2'] ?? '',
-            'given_day' => $vars['given_day'] ?? '',
-            'daily_rate' => $dailyRate ?? '',
+            'months' => $arfolyam->getMonths(),
+            'years' => $arfolyam->getYears(),
+            'types' => self::QUERY_TYPES,
+            'selected_type' => $vars['type'] ?? array_key_first(self::QUERY_TYPES),
+            'currency1' => $vars['currency1'] ?? 'EUR',
+            'currency2' => $vars['currency2'] ?? 'HUF',
+            'given_day' => $vars['given_day'] ?? date('Y-m-d'),
+            'given_month' => $vars['given_month'] ?? date('m'),
+            'given_year' => $vars['given_year'] ?? date('Y'),
+            'daily_rate' => $rateAtDay ?? null,
+            'monthly_rate' => $ratesAtMonth ?? [],
         ]);
-	}
+    }
 }
