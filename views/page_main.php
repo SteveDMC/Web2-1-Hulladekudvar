@@ -8,15 +8,12 @@
     </head>
     <body>
         <header>
-            <div id="user"><em><?= $_SESSION['userlastname']." ".$_SESSION['userfirstname'] ?></em></div>
             <h1 class="header">Web-programozás II - MVC alkalmazás</h1>
+            <div id="user"><em><?= $_SESSION['userlastname']." ".$_SESSION['userfirstname'] ?></em></div>
         </header>
         <nav>
             <?php echo Menu::getMenu($viewData['selectedItems']); ?>
         </nav>
-        <aside>
-                <p>Phasellus wisi nulla...</p>
-        </aside>
         <section>
             <?php if($viewData['render']) include($viewData['render']); ?>
         </section>

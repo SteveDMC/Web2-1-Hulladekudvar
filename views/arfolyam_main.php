@@ -11,7 +11,7 @@
 </datalist>
 
 <form action="<?= SITE_ROOT ?>arfolyam" method="post">
-    <select name='type' onchange="toggle_inputs()">
+    <select name='selected_type' onchange="toggle_inputs()">
         <?php foreach ($viewData['types'] as $type => $label): ?>
             <option value="<?= $type ?>" <?php if ($type === $viewData['selected_type']) echo 'selected'?>><?= $label ?></option>
         <?php endforeach; ?>
@@ -68,12 +68,12 @@
     });
 
     function toggle_inputs() {
-        const [type] = document.getElementsByName("type");
+        const [selected_type] = document.getElementsByName("selected_type");
         const [given_day] = document.getElementsByName("given_day");
         const [given_year] = document.getElementsByName("given_year");
         const [given_month] = document.getElementsByName("given_month");
 
-        if (type.value === 'daily') {
+        if (selected_type.value === 'daily') {
             enable(given_day);
             disable(given_year);
             disable(given_month);

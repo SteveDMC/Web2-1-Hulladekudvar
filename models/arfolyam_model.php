@@ -64,7 +64,7 @@ class Arfolyam_Model
         foreach ($dayXML->Rate as $rate) {
             $curr = (string)$rate['curr'];
             $unit = (float)$rate['unit'];
-            $rates[$curr] = (float)str_replace(',', '.', $rate) / $unit;
+            $rates[$curr] = (float)str_replace(',', '.', (string)$rate) / $unit;
         }
         $rate1 = $rates[$currency1] ?? 1.0;
         $rate2 = $rates[$currency2] ?? 1.0;
