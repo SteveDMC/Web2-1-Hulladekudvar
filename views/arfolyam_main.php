@@ -35,30 +35,35 @@
 
 <?php if ($viewData['daily_rate']): ?>
     <div>
-        1 <?= $viewData['currency1'] ?> = <?= round($viewData['daily_rate'], 4) ?> <?= $viewData['currency2'] ?>
+        <br>1 <?= $viewData['currency1'] ?> = <?= round($viewData['daily_rate'], 4) ?> <?= $viewData['currency2'] ?>
+    </div>
+    <div>
+        <br><img src="https://portalmotor.gyldendal.dk/-/media/home/matematik/matematik7-10/billeder/Nye-vignetter-skin/3_12.ashx"></img><br>
     </div>
 <?php endif; ?>
 
 <?php if ($viewData['monthly_rate']): ?>
-    <table>
-        <caption><?= $viewData['currency1'] ?> - <?= $viewData['currency2'] ?> árfolyam</caption>
-        <thead>
-            <tr>
-                <td>Dátum</td>
-                <td>Árfolyam az adott napon</td>
-            </tr>
-        </thead>
-        <tbody>
-            <?php foreach ($viewData['monthly_rate'] as $date => $rateAtDay): ?>
+    <div class="monthly_wrapper">
+        <table>
+            <caption><?= $viewData['currency1'] ?> - <?= $viewData['currency2'] ?> árfolyam</caption>
+            <thead>
                 <tr>
-                    <td><?= $date ?></td>
-                    <td><?= round($rateAtDay, 4) ?></td>
+                    <th>Dátum</th>
+                    <th>Árfolyam az adott napon</th>
                 </tr>
-            <?php endforeach; ?>
-        </tbody>
-    </table>
+            </thead>
+            <tbody>
+                <?php foreach ($viewData['monthly_rate'] as $date => $rateAtDay): ?>
+                    <tr>
+                        <td><?= $date ?></td>
+                        <td><?= round($rateAtDay, 4) ?></td>
+                    </tr>
+                <?php endforeach; ?>
+            </tbody>
+        </table>
 
-    <canvas id="chart"></canvas>
+        <canvas id="chart"></canvas>
+    </div>
 <?php endif; ?>
 
 <script>

@@ -79,5 +79,4 @@ class Arfolyam_Model
             )->GetExchangeRatesResult
         );
     }
-    /*push teszt*/
 }

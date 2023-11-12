@@ -1,0 +1,10 @@
+div.linkek a {
+    text-decoration: underline;
+    color: blue;
+}
+div.linkek a.selected {
+    background-color: white;
+}
+div.linkek a:hover { 
+    background-color: white;
+}

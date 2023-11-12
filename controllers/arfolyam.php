@@ -40,7 +40,7 @@ class Arfolyam_Controller
             'selected_type' => $vars['selected_type'] ?? array_key_first(self::QUERY_TYPES),
             'currency1' => $vars['currency1'] ?? 'USD',
             'currency2' => $vars['currency2'] ?? 'HUF',
-            'given_day' => $vars['given_day'] ?? date('Y-m-d', strtotime('-1 days')),
+            'given_day' => $vars['given_day'] ?? date('Y-m-d', strtotime('-2 days')),
             'given_month' => $vars['given_month'] ?? date('m'),
             'given_year' => $vars['given_year'] ?? date('Y'),
         ];

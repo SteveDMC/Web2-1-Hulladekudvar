@@ -2,7 +2,7 @@
 
 class Regisztracio_Controller
 {
-	public $baseName = 'belepes';
+	public $baseName = 'regisztracio';
 
 	public function main(array $vars)
 	{

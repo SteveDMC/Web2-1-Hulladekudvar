@@ -7,3 +7,13 @@ input {
     padding: 5px 2px;
     margin: 10px 5px;
 }
+div.reg a {
+    text-decoration: underline;
+    color: blue;
+}
+div.reg a.selected {
+    background-color: white;
+}
+div.reg a:hover { 
+    background-color: white;
+}

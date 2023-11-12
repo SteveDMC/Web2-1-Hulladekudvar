@@ -26,21 +26,27 @@ section {
 }
 nav ul {
     width:100%; /* A menü az alatta levő szövegtől elválik, birtokolja a teljes vízszintes sávját. */
-    padding:0;
+    padding: 0;
     margin:0;
     list-style-type:none;
     background-color: lightblue;
 }        
 a {
-    width:6em; /* Fix szélességű gombok érhetők el. Érdemes azonban vigyázni ezzel a módszerrel, mert ha a szöveg nem fér ki, a dizájn szétesik. */
     text-decoration:none; /* Ne legyen aláhúzva a link. */
     color:white;
+}
+a.selected {
+    background-color: blue;
+}
+a:hover { 
+    background-color:#ff3300 /* Az egérkurzorra színváltással reagál a menüpont. */
+} 
+nav li { 
+    display:inline-block;
     background-color:navy;
     padding:0.2em 0.6em;
     border-right:1px solid white;
 }
-a.selected{
-    background-color: blue;
+div.nyito {
+    text-align: center;
 }
-a:hover { background-color:#ff3300} /* Az egérkurzorra színváltással reagál a menüpont. */
-li { display:inline } /* Ez a sor oldja meg, hogy a menüpontok egymás mellé kerüljenek. */

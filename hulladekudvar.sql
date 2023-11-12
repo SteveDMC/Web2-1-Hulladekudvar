@@ -421,6 +421,8 @@ INSERT INTO `menu` (`url`, `nev`, `szulo`, `jogosultsag`, `sorrend`) VALUES
 ('kilepes', 'Kilépés', '', '011', 70),
 ('linkek', 'Linkek', '', '100', 30),
 ('nyitolap', 'Nyitólap', '', '111', 10);
+('arfolyam', 'Árfolyam', '', '111', 90);
+('hirek', 'Hírek', '', '111', 100);
 
 --
 -- Indexek a kiírt táblákhoz
