@@ -1,4 +1,4 @@
-<h2><b><?= (isset($viewData['uzenet']) ? $viewData['uzenet'] : "") ?></b></h2>
+<h2><?= (isset($viewData['uzenet']) ? $viewData['uzenet'] : "") ?></h2>
 
 <div class="flex-wrapper">
     <div class="belepes-wrapper">
