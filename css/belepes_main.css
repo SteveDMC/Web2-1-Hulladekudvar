@@ -17,3 +17,26 @@ div.reg a.selected {
 div.reg a:hover { 
     background-color: white;
 }
+.flex-wrapper {
+    display: flex;
+}
+.flex-wrapper > div {
+    padding: 0 3em;
+}
+.belepes-wrapper {
+    border-right: 1px dashed;
+}
+
+@media only screen and (max-width: 600px) {
+    .flex-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .flex-wrapper > div {
+        padding: 3em 3em;
+    }
+    .belepes-wrapper {
+        border-right: none;
+        border-bottom: 1px dashed;
+    }
+}
