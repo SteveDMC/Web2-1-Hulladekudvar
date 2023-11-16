@@ -1,8 +1,8 @@
 <?php
 
-class Elerhetoseg_alapinfok_Controller
+class Alapinfok_Controller
 {
-	public $baseName = 'elerhetoseg_alapinfok';  //meghatározni, hogy melyik oldalon vagyunk
+	public $baseName = 'alapinfok';  //meghatározni, hogy melyik oldalon vagyunk
 	public function main(array $vars) // a router által továbbított paramétereket kapja
 	{
 		//betöltjük a nézetet

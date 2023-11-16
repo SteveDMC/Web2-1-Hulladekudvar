@@ -47,6 +47,12 @@ nav li {
     padding:0.2em 0.6em;
     border-right:1px solid white;
 }
+li.submenu {
+    background-color: blue;
+}
+a.subselected {
+    background-color: navy;
+}
 div.nyito {
     text-align: center;
 }
