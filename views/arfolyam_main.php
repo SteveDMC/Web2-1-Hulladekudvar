@@ -33,18 +33,20 @@
 </form>
 
 <?php if ($viewData['daily_rate']): ?>
-    <div>
-        <br>1 <?= $viewData['currency1'] ?> = <?= round($viewData['daily_rate'], 4) ?> <?= $viewData['currency2'] ?>
-    </div>
-    <div>
-        <br><img src="<?= SITE_ROOT?>images/arfolyam.png"></img><br>
+    <div class="divkep">
+        <br>
+        <table class="kep">
+            <tr>
+                <td background="<?= SITE_ROOT?>images/arfolyam.png">1 <?= $viewData['currency1'] ?> = <?= round($viewData['daily_rate'], 4) ?> <?= $viewData['currency2'] ?></td>
+            </tr>
+        </table>
     </div>
 <?php endif; ?>
 
 <?php if ($viewData['monthly_rate']): ?>
     <div class="monthly_wrapper">
         <div>
-            <table>
+            <table class="havi">
                 <caption><?= $viewData['currency1'] ?> - <?= $viewData['currency2'] ?> árfolyam</caption>
                 <thead>
                     <tr>

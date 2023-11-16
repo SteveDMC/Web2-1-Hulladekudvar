@@ -1,20 +1,20 @@
-table, th, td {
-    border: 1px solid black;
+table.havi, td, tr {
     border-collapse: collapse; 
+    border: 1px solid black;
 }
-tr th {
+table.havi tr th {
     background-color: #e8f1f1;
 }
-tr td {
+table.havi tr td {
     text-align: right;
 }
-tr td:first-child {
+table.havi tr td:first-child {
     padding: 0 1em;
 }
-tr:nth-child(even) {
+table.havi tr:nth-child(even) {
     background-color: #e8f1f1;
 }
-caption {
+table.havi caption {
   padding: 1em;
   border: 1px solid black;
   border-bottom: none;
@@ -25,18 +25,24 @@ div.monthly_wrapper {
     margin: 2em 0;
     gap: 2em;
 }
-img {
-    max-width: 100%;
-}
 .canvas-wrapper {
     position: relative;
     flex: 1;
     max-height: 100%;
 }
-
 @media only screen and (max-width: 600px) {
     div.monthly_wrapper {
         flex-direction: column;
         align-items: center;
     }
+}
+table.kep {
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+table.kep tr td {
+    height: 60vh;
 }

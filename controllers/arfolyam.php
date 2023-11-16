@@ -33,7 +33,7 @@ class Arfolyam_Controller
         return [
             'types' => self::QUERY_TYPES,
             'selected_type' => $vars['selected_type'] ?? array_key_first(self::QUERY_TYPES),
-            'currency1' => $vars['currency1'] ?? 'USD',
+            'currency1' => $vars['currency1'] ?? 'EUR',
             'currency2' => $vars['currency2'] ?? 'HUF',
             'given_day' => $vars['given_day'] ?? $arfolyam->getLastDate(),
             'given_month' => $vars['given_month'] ?? date('m'),
