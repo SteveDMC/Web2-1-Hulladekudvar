@@ -322,16 +322,16 @@ CREATE TABLE `menu` (
 
 INSERT INTO `menu` (`url`, `nev`, `szulo`, `jogosultsag`, `sorrend`) VALUES
 ('admin', 'Admin', '', '001', 80),
-('alapinfok', 'Alapinfók', 'elerhetoseg', '111', 40),
+('elerhetoseg', 'Elérhetőség', 'alapinfok', '111', 40),
 ('belepes', 'Belépés', '', '100', 60),
-('elerhetoseg', 'Elérhetőség', '', '111', 20),
-('kiegeszitesek', 'Kiegészítések', 'elerhetoseg', '011', 50),
+('alapinfok', 'Alapinfók', '', '111', 20),
+('kiegeszitesek', 'Kiegészítések', 'alapinfok', '011', 50),
 ('kilepes', 'Kilépés', '', '011', 70),
 ('linkek', 'Linkek', '', '100', 30),
 ('nyitolap', 'Nyitólap', '', '111', 10),
 ('arfolyam', 'Árfolyam', '', '111', 90),
 ('hirek', 'Hírek', '', '111', 100),
-('soap_kliens', 'Telephelyek', '', '111', 110);
+('soap_kliens', 'Telephelyek', 'alapinfok', '111', 110);
 
 --
 -- Indexek a kiírt táblákhoz
