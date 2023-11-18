@@ -1,0 +1,66 @@
+section {
+    margin: 0 20%;
+}
+.hirek {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3em;
+}
+.hir {
+    display: flex;
+    gap: 2em;
+    margin: 2em;
+}
+section a {
+    color: black;
+    transition: all 0.4s;
+}
+section > h2 {
+    font-size: 2em;
+}
+section a:hover {
+    color: white;
+    background-color: #ff825b;
+}
+.hir img {
+    width: 300px;
+}
+
+@media only screen and (max-width: 1450px) {
+    section {
+        margin: 0 15%;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    section {
+        margin: 0 10%;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    section {
+        margin: 0 5%;
+    }
+}
+@media only screen and (max-width: 970px) {
+    section {
+        margin: 0 10%;
+    }
+    .hir {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+    .hir p {
+        display: none;
+    }
+    .hir img {
+        width: 100%;
+    }
+    .hir .cim {
+        margin-top: 0;
+    }
+}
+@media only screen and (max-width: 650px) {
+    section {
+        margin: 0 2em;
+    }
+}

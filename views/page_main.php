@@ -10,7 +10,7 @@
         <header>
             <h1 class="header">Hulladékudvar - MVC alkalmazás</h1>
             <!--h1 class="header">Web-programozás II - MVC alkalmazás</h1-->
-            <div id="user"><em><?= $_SESSION['userlastname']." ".$_SESSION['userfirstname'] ?></em></div>
+            <div id="user">Bejelentkezett: <em><?= $_SESSION['userlastname']." ".$_SESSION['userfirstname'] ?> (<?= $_SESSION['nickname'] ?>)</em></div>
         </header>
         <nav>
             <?php echo Menu::getMenu($viewData['selectedItems']); ?>

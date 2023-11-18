@@ -5,8 +5,13 @@ class Hirek_Controller
 	public $baseName = 'hirek';
 	public function main(array $vars)
 	{
-        $hirek = $vars['hirek'] ?? '';
+		$hirek_model = new Hirek_Model;
+        $hirek = $hirek_model->getHirek();
+		//var_dump($hirek);die;
         $view = new View_Loader($this->baseName."_main");
+		$view->assignAll([
+			'hirek' => $hirek ?? [],
+		]);
 	}
 }
 

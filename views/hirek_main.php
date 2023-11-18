@@ -1,19 +1,15 @@
 <h2>Hírek</h2>
 <div class="hirek">
-    <table>
-        <thead>
-            <tr>
-                <th>Kép</th>
-                <th>Cím</th>
-            </tr>
-        </thead>
-        <tbody>
-            <?php foreach ($viewData['hirek'] as $hir): ?>
-                <tr>
-                    <td><?= $hir['kep'] ?></td>
-                    <td><?= $hir['cim'] ?></td>
-                </tr>
-            <?php endforeach; ?>
-        </tbody>
-    </table>
+    <?php foreach ($viewData['hirek'] as $hir): ?>
+        <a href="">
+            <div class="hir">
+                <div class="kep"><img src="<?= SITE_ROOT . 'images/' . $hir['kep'] ?>"/></div>
+                <div class="cim">
+                    <h2><?= $hir['cim'] ?></h2>
+                    <p><?= substr($hir['tartalom'], 0, 400) ?>...</p>
+                </div>
+            </div>
+        </a>
+    <?php endforeach; ?>
+    
 </div>
