@@ -11,8 +11,8 @@ class Alapinfok_soap_Kliens_Controller
         $view = new View_Loader($this->baseName."_main");
         $view->assignAll([
             'selected_fajta' => $fajta,
-            'fajtak' => $client->getFajtak()->fajtak ?? [],
-            'helyek' => $client->getHelyek($fajta)->helyek ?? [],
+            'fajtak' => $client->getFajtak()?->fajtak ?? [],
+            'helyek' => $client->getHelyek($fajta)?->helyek ?? [],
         ]);
     }
 }
