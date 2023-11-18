@@ -73,3 +73,5 @@ class Fajtak
      */
     public array $fajtak;
 }
+
+?>

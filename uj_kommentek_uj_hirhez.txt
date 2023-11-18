@@ -1,0 +1,2 @@
+(7, 6, '2023-07-06 11:23:12', 'Ezzel a sok újítással és fejlesztéssel viszont az adott időre meg fog növekedni a leadási idő. Hiába könnyítik meg a leadást, amíg átállnak a lerakók addig a lakosság belefullad a hulladékba.'),
+(4, 6, '2023-07-06 13:42:10', 'A cikkben pont azt ecsetelik, hogy ezt minimalizálni szeretnék és nyilván ez lassulással jár, de hosszú távon pont hogy segít.');

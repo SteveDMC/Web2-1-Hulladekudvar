@@ -1,5 +1,19 @@
 <h2>Hírek</h2>
 <div class="hirek">
-- Itt lesznek<br>
-- a hírek<br>
+    <table>
+        <thead>
+            <tr>
+                <th>Kép</th>
+                <th>Cím</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php foreach ($viewData['hirek'] as $hir): ?>
+                <tr>
+                    <td><?= $hir['kep'] ?></td>
+                    <td><?= $hir['cim'] ?></td>
+                </tr>
+            <?php endforeach; ?>
+        </tbody>
+    </table>
 </div>

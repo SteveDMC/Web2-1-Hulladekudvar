@@ -1,4 +1,4 @@
-<form name="hulladekudvarok" action="<?= SITE_ROOT ?>alapinfok//soap_kliens" method="post">
+<form name="hulladekudvarok" action="<?= SITE_ROOT ?>alapinfok/soap_kliens" method="post">
     <select name='fajta' onchange="javascript:hulladekudvarok.submit();">
         <option value="">-- összes hulladékudvar --</option>
         <?php foreach ($viewData['fajtak'] as $fajta): ?>
