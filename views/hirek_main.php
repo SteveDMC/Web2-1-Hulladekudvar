@@ -1,7 +1,7 @@
 <h2>Hírek</h2>
 <div class="hirek">
     <?php foreach ($viewData['hirek'] as $hir): ?>
-        <a href="">
+        <a href="<?= SITE_ROOT . 'hir/' . $hir['id'] ?>">
             <div class="hir">
                 <div class="kep"><img src="<?= SITE_ROOT . 'images/' . $hir['kep'] ?>"/></div>
                 <div class="cim">

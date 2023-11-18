@@ -2,14 +2,18 @@
 
 class Hirek_Model
 {
-    /**
-    *  @param string $hirek
-    *  @return Hirek
-    */
     public function getHirek(): array
     {
         $connection = Database::getConnection();
-        $stmt = $connection->query("select cim, tartalom, kep from hirek;");
+        $stmt = $connection->query("select id, cim, tartalom, kep from hirek;");
         return $stmt->fetchAll(PDO::FETCH_ASSOC);;
+    }
+
+    public function getHir(int $id): array
+    {
+        $connection = Database::getConnection();
+        $stmt = $connection->prepare("select * from hirek where id = ?;");
+        $stmt->execute([$id]);
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 }
