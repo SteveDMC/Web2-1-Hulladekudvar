@@ -11,7 +11,7 @@ class Hir_add_Controller
             $_SESSION['userid'],
             $vars['cim'],
             $vars['tartalom'],
-            $vars['kep']
+            $_FILES['kep']['name'],
         );
         $view = new View_Loader($this->baseName."_main");
         $view->assignAll($result);

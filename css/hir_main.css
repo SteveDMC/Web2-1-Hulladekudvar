@@ -13,6 +13,7 @@ section {
     margin: auto;
     margin-bottom: 1.5em;
     display: flex;
+    max-width: 100%;
 }
 .hir .szerzo {
     text-transform: uppercase;

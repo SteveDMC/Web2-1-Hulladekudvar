@@ -9,7 +9,7 @@ class Hir_update_Controller
         $hirek_model->updateHir(
             $vars['cim'],
             $vars['tartalom'],
-            $vars['kep'],
+            $_FILES['kep']['name'],
             (int)$vars['id']
         );
         header(sprintf('Location: %shir/%s', SITE_ROOT, $vars['id']));

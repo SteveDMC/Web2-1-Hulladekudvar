@@ -7,7 +7,7 @@ class Komment_Controller
 	{
 		$komment_model = new Komment_Model;
         $komment_model->addKomment(
-            (int)$vars['szerzoid'],
+            $_SESSION['userid'],
             (int)$vars['hirid'],
             $vars['tartalom']
         );

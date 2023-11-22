@@ -20,7 +20,6 @@
             <div class="vonal2"></div>
             <div class="uj-komment">
                 <form action="<?= SITE_ROOT ?>komment" method="post">
-                    <input name="szerzoid" value="<?= $_SESSION['userid'] ?>" type="hidden">
                     <input name="hirid" value="<?= $hir['id'] ?>" type="hidden">
                     <textarea name="tartalom" placeholder="Komment írása" rows="4" required></textarea>
                     <button type="submit">Küldés</button>
