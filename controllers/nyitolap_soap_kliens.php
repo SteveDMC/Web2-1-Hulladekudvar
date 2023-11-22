@@ -1,8 +1,8 @@
 <?php 
 
-class Alapinfok_soap_Kliens_Controller
+class Nyitolap_Soap_Kliens_Controller
 {
-    public $baseName = 'alapinfok_soap_kliens';
+    public $baseName = 'nyitolap_soap_kliens';
 
     public function main(array $vars)
     {

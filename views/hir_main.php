@@ -2,17 +2,22 @@
     $hir = $viewData['hir'];
 ?>
 <?php if ($hir): ?>
-    <div class="hir">
+    <div class="hir"><p>
         <div class="cim"><h2><?= $hir['cim'] ?></h2></div>
+        <div class="vak"><?php if ($_SESSION['userid'] == $hir['szerzoid']): ?>
+            <a href="<?= SITE_ROOT . 'hir_edit/' . $hir['id'] ?>">
+            <button class="gomb">Szerkesztés</button></a>
+        <?php endif; ?></div></p>
         <div class="kep"><img src="<?= SITE_ROOT . 'images/' . $hir['kep'] ?>"/></div>
-        <div class="szerzo"><?= $hir['csaladi_nev'] ?> <?= $hir['utonev'] ?></div>
+        <div class="szerzo"><?= $hir['csaladi_nev'] ?> <?= $hir['utonev'] ?> (<?= $hir['bejelentkezes'] ?>)</div>
         <div class="datum"><?= $hir['datum'] ?></div>
         <div class="vonal1"></div>
         <div class="tartalom"><?= $hir['tartalom'] ?></div>
-        <div class="vonal2"></div>
+        <div class="pont">---</div>
     </div>
     <div class="kommentek">
         <?php if ($_SESSION['userid']): ?>
+            <div class="vonal2"></div>
             <div class="uj-komment">
                 <form action="<?= SITE_ROOT ?>komment" method="post">
                     <input name="szerzoid" value="<?= $_SESSION['userid'] ?>" type="hidden">
@@ -20,7 +25,7 @@
                     <textarea name="tartalom" placeholder="Komment írása" rows="4" required></textarea>
                     <button type="submit">Küldés</button>
                 </form>
-            </div>
+            </div>                
         <?php endif; ?>
         <?php foreach ($viewData['kommentek'] as $komment): ?>
             <div class="komment">

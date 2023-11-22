@@ -1,8 +1,8 @@
 <?php
 
-class Alapinfok_kiegeszitesek_Controller
+class Nyitolap_Kiegeszitesek_Controller
 {
-	public $baseName = 'alapinfok_kiegeszitesek';  //meghatározni, hogy melyik oldalon vagyunk
+	public $baseName = 'nyitolap_kiegeszitesek';  //meghatározni, hogy melyik oldalon vagyunk
 	public function main(array $vars) // a router által továbbított paramétereket kapja
 	{
 		//betöltjük a nézetet

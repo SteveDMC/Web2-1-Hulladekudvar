@@ -1,0 +1,52 @@
+.cim, .tart, .kep {
+    display: flex;
+    gap: 10px;
+}
+.lab {
+    width: 110px;
+    margin: 0.5em 0;
+}
+.in {
+    margin: 0.5em 0;
+}
+.kep .in, .cim .in, .tart .in {
+    width: 80%;
+}
+.kep .in > input, .cim .in > input, .tart .in > textarea {
+    width: 100%;
+}
+@media only screen and (max-width: 1450px) {
+    section {
+        margin: 0 15%;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    section {
+        margin: 0 10%;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    section {
+        margin: 0 5%;
+    }
+}
+@media only screen and (max-width: 970px) {
+    section {
+        margin: 0 10%;
+    }
+    .cim, .tart, .kep {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+    .cim, .tart, .kep, img {
+        width: 100%;
+    }
+    .cim, .tart, .kep {
+        margin-top: 0;
+    }
+}
+@media only screen and (max-width: 650px) {
+    section {
+        margin: 0 2em;
+    }
+}

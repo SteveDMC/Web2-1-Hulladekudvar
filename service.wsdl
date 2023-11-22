@@ -73,7 +73,7 @@
   <wsdl:service name="Hulladekudvar_Model">
     <wsdl:documentation/>
     <wsdl:port name="Hulladekudvar_ModelPort" binding="tns:Hulladekudvar_ModelBinding">
-      <soap-env:address location="http://localhost/hulladekudvar/alapinfok_soap_szerver"/>
+      <soap-env:address location="http://localhost/hulladekudvar/nyitolap_soap_szerver"/>
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>
