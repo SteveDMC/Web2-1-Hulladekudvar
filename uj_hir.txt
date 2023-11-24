@@ -1,38 +1,38 @@
-(6, 9, '2023-07-05', 'Így szemetelünk mostantól: új hulladékudvarok nyílnak, gyorsabb és egyszerűbb lesz a leadás', 'Bármely hazai illetékességű állampolgár bármely hazai hulladékudvart használhatja, mégpedig az eddiginél általában hosszabb nyitvatartási időben. Gyorsította és egyszerűsítette a hulladékok átvételét az országos hulladékgazdálkodásért július 1-je óta felelős Mohu, új hulladékudvarok létesülnek, a kistelepüléseken mobil változatban is.
-
+(6, 9, '2023-07-05', 'Így szemetelünk mostantól: új hulladékudvarok nyílnak, gyorsabb és egyszerűbb lesz a leadás', '<b>Bármely hazai illetékességű állampolgár bármely hazai hulladékudvart használhatja, mégpedig az eddiginél általában hosszabb nyitvatartási időben. Gyorsította és egyszerűsítette a hulladékok átvételét az országos hulladékgazdálkodásért július 1-je óta felelős Mohu, új hulladékudvarok létesülnek, a kistelepüléseken mobil változatban is.</b>
+<br><br>
 Július 1-jétől új világ köszöntött be a hazai hulladékgazdálkodásban, de a lakosság számára jó hír, hogy a szemétdíjak nem változnak, a szemetet ugyanúgy szállítják el, mint eddig, ami változás pedig mégis lesz, az inkább megkönnyíti az életet.
-
+<br><br>
 A Világgazdaság az elmúlt napokban felgyűlt kérdések alapján veszi sorra a háztartásokat érintő fő tudnivalókat. Az összeállítás sok pontban támaszkodik a koncessziós társaság, a Mohu Zrt. által már közöltekre. Kezdjük a hulladékudvarok működésével, amivel kapcsolatban a legtöbb kérdés merült fel.
-Még több hulladékudvar lesz, még mobil is
-
-A Mohu – mint korábban jelezte – egy átláthatóan, egységesen és fenntarthatóan működő hulladékrendszert kíván létrehozni, amelyben kiemelt szerepet szán a szelektív hulladékgyűjtésnek. A hulladékudvarok fő feladata ugyanis a lakossági szelektív hulladékgyűjtés támogatása. Azok a hulladékok kerülnek ide, amelyeket sem a napi hulladékgyűjtéssel, sem az évenkénti lomtalanításkor nem tudnak elhelyezni az emberek. A szelektív hulladékgyűjtés támogatása érdekében 
-
-a Mohu néhány éven belül jelentősen megnöveli a hulladékudvarok számát: a jelenlegi 286-ról 369-re.
-
+<br><br><b>
+Még több hulladékudvar lesz, még mobil is</b>
+<br><br>
+A Mohu – mint korábban jelezte – egy átláthatóan, egységesen és fenntarthatóan működő hulladékrendszert kíván létrehozni, amelyben kiemelt szerepet szán a szelektív hulladékgyűjtésnek. A hulladékudvarok fő feladata ugyanis a lakossági szelektív hulladékgyűjtés támogatása. Azok a hulladékok kerülnek ide, amelyeket sem a napi hulladékgyűjtéssel, sem az évenkénti lomtalanításkor nem tudnak elhelyezni az emberek. A szelektív hulladékgyűjtés támogatása érdekében a Mohu néhány éven belül jelentősen megnöveli a hulladékudvarok számát: a jelenlegi 286-ról 369-re.
+<br><br>
 A Mohu minden működő hulladékudvar üzemeltetőjével leszerződött, és jelezte, hogy a jövőben minden 10 ezer főnél több lakosú településen lesz hulladékudvar. Bevezeti ezenfelül a mobil hulladékudvari szolgáltatást a legalább ötezer és a legfeljebb tízezer fős településeken. Vagyis megalapozatlan az az aggodalom, hogy bezárna hulladékudvarokat, és az érintett lakosoknak nem lenne hová leadniuk a hulladékot.
-Jelentős egyszerűsítések történtek
-
+<br><br><b>
+Jelentős egyszerűsítések történtek</b>
+<br><br>
 Az új rendszerben minden magyar állampolgár számára elérhető lesz az összes hulladékudvar, míg eddig csak a bejelentett lakcímhez tartozót használhatta adott személy. Eddig azt igazolnia is kellett, hogy befizette a közszolgáltatási díjat, most már erre nincs szükség. Adott kvótán belül a Mohuval szerződött hulladékudvarok átveszik az ügyfél által leadott hulladékot, ami sokkal egyszerűbb megoldás a korábbinál.
-
+<br><br>
 Megnő a hulladékudvarok nyitvatartási ideje is. Ez eddig sok helyen heti pár óra volt, a jövőben a tízezer fő feletti településeken legalább heti 48 óra lesz.
-
-Mivel a Mohu felel a hazai hulladék minél nagyobb arányú újrahasznosításáért – az EU-s és magyar előírásoknak megfelelően – szüksége van a hulladék útjának nyomon követésére, mennyiségének, minőségének ismeretére. Ezért megállapodott a hulladékudvarok üzemeltetőivel, hogy (a 2014 óta hatályos szabályozásnak megfelelően) minden nap végén beszámolnak a készleten lévő hulladék tömegéről. Viszont nem szükséges már minden egyes beszállító hulladékát lemérniük, néhány olyan anyagtól eltekintve, amelyeknél a mérésre a nagy tömeg vagy az udvar korlátozott befogadóképessége miatt van szükség.
-A jogszabályokat azért be kell tartani
-
+<br><br>
+Mivel a Mohu felel a hazai hulladék minél nagyobb arányú újrahasznosításáért – az EU-s és magyar előírásoknak megfelelően – szüksége van a hulladék útjának nyomon követésére, mennyiségének, minőségének ismeretére. Ezért megállapodott a hulladékudvarok üzemeltetőivel, hogy (a 2014 óta hatályos szabályozásnak megfelelően) minden nap végén beszámolnak a készleten lévő hulladék tömegéről. Viszont nem szükséges már minden egyes beszállító hulladékát lemérniük, néhány olyan anyagtól eltekintve, amelyeknél a mérésre a nagy tömeg vagy az udvar korlátozott befogadóképessége miatt van szükség.<br><br><b>
+A jogszabályokat azért be kell tartani</b>
+<br><br>
 A Mohunak nemcsak hogy nem érdeke a hulladékudvarok bezárása, de nem is teheti: nem hatóság. Egyes hulladékudvarok üzemeltetése rövid ideig azonban szünetelhet karbantartások vagy az átmenet gördülékeny biztosítása érdekében. 
-
+<br><br>
 Bezárás abban az esetben fenyeget, ha egy hulladékudvar nem rendelkezik a megfelelő engedélyekkel, vagy a hatóság szerint nem szabályos a működése. 
-
+<br><br>
 A Mohu ezekben az esetekben is egyeztet a szabálytalanul működő hulladékudvarok üzemeltetőivel, hiszen éppen a hulladékudvarok számának növelésén dolgozik.
 Kétségtelen, hogy fejleszteni kell
-
+<br><br>
 Sokan firtatják, hogy pontosan hogyan változik meg a hulladékok leadása. A Mohu már jelezte, hogy az egységes és magas szolgáltatási színvonal kialakítása érdekében számos fejlesztést, változást tervez, a lakossági igények kiemelt figyelembevételével. Ezekre két új példa a már említetteken felül:
-
+<br><br>
 Egységes rendszer fogja majd össze a hulladékudvarokon átvehető hulladékok körét, amit a Mohu a lehető legszéleskörűbben kíván biztosítani.
 2023. július 1-jétől egységes mennyiségi kvóták érvényesek egyes hulladékáramok esetében (például építési-bontási hulladék, lomhulladék, gumiabroncs). Megeshet, hogy emiatt és a hulladékudvarok eltérő hulladéktároló kapacitása miatt egyes helyszíneken meghatározott anyagáramokra regisztrációs rendszert kell bevezetni.
-
+<br><br>
 Mivel a Mohu elvárja a hulladékudvarok üzemeltetőitől a napi szintű, mennyiségi alapú készletnyilvántartást, illetve egyes hulladéktípusok esetében a kiszállításhoz szükséges átvételi kvóták fenntartását, egyes esetekben nőhet az átvétel ideje. Ezért – mint jelezte – az ügyfelek elnézését kéri, az együttműködésüket előre is köszöni. 
-
-Változhat továbbá az átvett hulladékok köre és mennyisége a hulladékudvarok kapacitása miatt.
-
+<br><br><b>
+Változhat továbbá az átvett hulladékok köre és mennyisége a hulladékudvarok kapacitása miatt.</b>
+<br><br>
 A hulladékudvar üzemeltetőjének weboldalán részletes információ található a bevihető pontos mennyiségről és hulladéktípusokról. A hulladékudvarok üzemeltetőivel kötött minden szerződés rögzíti a kötelező nyitvatartás idejét, az átveendő hulladékok körét, az esetleg alkalmazandó átvételi kvótákat és egyéb műszaki és szolgáltatási színvonalmutatókat. Igaz, ez sok hulladékudvarnál még nincs kiírva, ráadásul – hallható, olvasható – maguk a hulladékudvarok sem tudják, hogy mit és mennyit adhat le náluk egy lakos. Pedig tudniuk kell: a Mohu közlése szerint ez minden partner rendelkezésére áll.', '06_egyszerubb_lesz_a_leadas.jpg');
