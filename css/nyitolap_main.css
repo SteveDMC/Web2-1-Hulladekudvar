@@ -10,9 +10,10 @@ section {
 }
 .doboz .kep {
     vertical-align: middle; 
+    text-align: center;
 }
 .doboz img {
-    width: 100%;
+    width: 80%;
 }
 @media only screen and (max-width: 1450px) {
     section {
